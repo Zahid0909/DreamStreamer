@@ -95,38 +95,5 @@ fetch('https://h3ofpd5s5b.execute-api.ap-southeast-1.amazonaws.com/dev/genres')
     console.log(response)
     genres.value = response.body
   })
-// const genres = [
-//   {
-//     id: 1,
-//     name: 'Pop',
-//     description: 'Pop is a genre of popular music that originated in its modern form during the mid-1950s in the USA and the UK.',
-//     status: true,
-//     sort_order: 1,
-//     image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-//   },
-//   {
-//     id: 2,
-//     name: 'Rock',
-//     description: 'Rock music is a broad genre of popular music that originated as "rock and roll" in the United States in the late 1940s and early 1950s.',
-//     status: null,
-//     sort_order: 2,
-//     image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-//   },
-//   {
-//     id: 3,
-//     name: 'Jazz',
-//     description: 'Jazz is a music genre that originated in the African-American communities of New Orleans, United States, in the late 19th and early 20th centuries.',
-//     status: true,
-//     sort_order: 3,
-//     image: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-//   },
-//   {
-//     id: 4,
-//     name: 'Classical',
-//     description: 'Classical music is a term that is used to refer to a broad range of music that is considered to be a part of the classical tradition.',
-//     status: true,
-//     sort_order: 4,
-//     image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-//   },
-// ]
+
 </script>
