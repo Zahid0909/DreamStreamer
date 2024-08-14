@@ -13,7 +13,7 @@ const count = ref(0)
           <RouterLink to="/genres" class="flex justify-center text-lg font-semibold">
             Genres
           </RouterLink>
-          <RouterLink to="/" class="flex justify-center text-lg font-semibold">
+          <RouterLink to="/home" class="flex justify-center text-lg font-semibold">
             Albums
           </RouterLink>
           <RouterLink to="/tracks" class="flex justify-center text-lg font-semibold">
