@@ -34,6 +34,28 @@ const hardcodedAdmin = {
   role: 'admin',
 };
 
+// User Registration API
+app.post('/api/register', async (req, res) => {
+  const { email, password, role, avatar, first_name, last_name, age, country, phone } = req.body;
+
+  // Hash the user's password before storing it
+  const hashedPassword = await bcrypt.hash(password, 10);
+
+  // Insert user into the database
+  const query = `
+    INSERT INTO users (email, password, new_role, avatar, first_name, last_name, age, country, phone, created_at, updated_at)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, NOW(), NOW())
+  `;
+
+  db.query(query, [email, hashedPassword, role, avatar, first_name, last_name, age, country, phone], (err, results) => {
+    if (err) {
+      console.error('Error inserting user: ', err);
+      return res.status(500).json({ success: false, message: 'Registration failed' });
+    }
+    res.json({ success: true, message: 'User registered successfully' });
+  });
+});
+
 // User Login API
 app.post('/api/login', (req, res) => {
   const { email, password, role } = req.body;
