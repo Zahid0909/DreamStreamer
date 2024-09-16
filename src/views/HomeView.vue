@@ -74,7 +74,7 @@ export default {
 
     function getAlbums() {
       
-      fetch('https://h3ofpd5s5b.execute-api.ap-southeast-1.amazonaws.com/dev/albums?year=' + year.value)
+      fetch('https://v7dummp5nl.execute-api.eu-north-1.amazonaws.com/dev/albums?year=' + year.value)
       .then((response) => response.json())
       .then((response) => {
         console.log(response)

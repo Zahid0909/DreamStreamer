@@ -152,7 +152,7 @@ import { ArrowLeftIcon } from '@heroicons/vue/20/solid'
 
 const users = ref([]);
 
-fetch('https://h3ofpd5s5b.execute-api.ap-southeast-1.amazonaws.com/dev/users')
+fetch('https://v7dummp5nl.execute-api.eu-north-1.amazonaws.com/dev/users')
   .then((response) => response.json())
   .then((response) => {
     console.log(response)
