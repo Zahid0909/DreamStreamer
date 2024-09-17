@@ -51,7 +51,7 @@ export default {
 
     function getGenres() {
       
-      fetch('https://h3ofpd5s5b.execute-api.ap-southeast-1.amazonaws.com/dev/genres')
+      fetch('https://v7dummp5nl.execute-api.eu-north-1.amazonaws.com/dev/genres')
       .then((response) => response.json())
       .then((response) => {
         console.log(response)

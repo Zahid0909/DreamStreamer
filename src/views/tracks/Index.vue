@@ -100,7 +100,7 @@ export default {
 
     
     const fetchTracks = () => {
-      let url = 'https://h3ofpd5s5b.execute-api.ap-southeast-1.amazonaws.com/dev/tracks';
+      let url = 'https://v7dummp5nl.execute-api.eu-north-1.amazonaws.com/dev/tracks';
       if (filterOrder.value) {
         url += `?orderByName=${filterOrder.value === 'asc'}`;
       }
