@@ -7,9 +7,9 @@
       <div class="flex bg-gray-100 pb-24 pt-5 sm:pb-32">
         <div class="mx-auto max-w-7xl px-6 text-center lg:px-8">
           <div class="mx-auto max-w-2xl">
-            <h2 class="text-3xl font-bold tracking-tight text-black sm:text-4xl">Genres</h2>
+            <h2 class="text-3xl font-bold tracking-tight text-black sm:text-4xl">Genre's</h2>
             <p class="mt-4 text-lg leading-8 text-gray-600">
-              This is the Genres page. Here you can view all the genres in DreamSreamer.
+              This is the Genre's page. Here you can view all the genres in DreamSreamer.
             </p>
           </div>
 

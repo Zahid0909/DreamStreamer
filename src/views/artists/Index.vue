@@ -7,9 +7,9 @@
       <div class="flex bg-gray-100 pb-24 pt-5 sm:pb-32">
         <div class="mx-auto max-w-7xl px-6 text-center lg:px-8">
           <div class="mx-auto max-w-2xl">
-            <h2 class="text-3xl font-bold tracking-tight text-black sm:text-4xl">Artists</h2>
+            <h2 class="text-3xl font-bold tracking-tight text-black sm:text-4xl">Artist's</h2>
             <p class="mt-4 text-lg leading-8 text-gray-600">
-              This is the Artists page. Here you can view all the artists in DreamSreamer.
+              This is the Artist's page. Here you can view all the artists in DreamSreamer.
             </p>
           </div>
 
@@ -54,7 +54,7 @@ export default {
 
     function getArtists() {
       
-      fetch('https://h3ofpd5s5b.execute-api.ap-southeast-1.amazonaws.com/dev/artists')
+      fetch('https://v7dummp5nl.execute-api.eu-north-1.amazonaws.com/dev/artists')
       .then((response) => response.json())
       .then((response) => {
         console.log(response)

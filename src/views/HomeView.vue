@@ -23,6 +23,7 @@
               <option value="2005">2005</option>
               <option value="2012">2012</option>
               <option value="2016">2016</option>
+              
             </select>
 
             <button type="button" @click="getAlbums" class="mt-2">
