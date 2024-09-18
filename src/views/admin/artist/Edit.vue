@@ -179,9 +179,9 @@ const open = ref(true)
 const router = useRouter()
 
 const artist = ref({
-  id: 1,
-  name: 'Leslie Alexander',
-  bio: 'Leslie Alexander is a Sri Lankan singer, songwriter, and composer. He is a prominent figure in the Sri Lankan music industry and has gained popularity in the South Asian region. Costa has released several albums and singles throughout his career and has won numerous awards for his work.',
+  id: 2,
+  name: '50 Cent',
+  bio: 'American rapper, actor, and businessman.',
   avatar: 'IMAGE_URL',
   sort_order: 0,
   status: true // Published etc.
